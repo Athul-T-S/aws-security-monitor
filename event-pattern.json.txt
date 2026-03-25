@@ -1,0 +1,29 @@
+{
+  "source": [
+    "aws.signin",
+    "aws.iam",
+    "aws.cloudtrail",
+    "aws.s3",
+    "aws.ec2"
+  ],
+  "detail-type": [
+    "AWS Console Sign In via CloudTrail",
+    "AWS API Call via CloudTrail"
+  ],
+  "detail": {
+    "eventName": [
+      "ConsoleLogin",
+      "CreateAccessKey",
+      "AttachUserPolicy",
+      "AttachRolePolicy",
+      "PutUserPolicy",
+      "PutRolePolicy",
+      "StopLogging",
+      "DeleteTrail",
+      "UpdateTrail",
+      "PutBucketAcl",
+      "PutBucketPolicy",
+      "AuthorizeSecurityGroupIngress"
+    ]
+  }
+}
